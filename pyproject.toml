@@ -1,0 +1,20 @@
+[tool.poetry]
+# Use Poetry only to manage dependencies.
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+matplotlib = "^3.6.2"
+seaborn = "^0.12.1"
+scikit-learn = "1.5.2"
+xgboost = "^1.7.1"
+jupyter = "^1.1.1"
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^6.5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

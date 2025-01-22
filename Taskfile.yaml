@@ -1,0 +1,24 @@
+version: '3'
+
+tasks:
+  setup:
+    desc: Install Python and set up the virtual environment
+    cmds:
+      - pyenv install --skip-existing $(cat .python-version)
+      - pip install poetry
+      - poetry install
+
+  install:
+    desc: Install dependencies via Poetry
+    cmds:
+      - poetry install
+
+  run:
+    desc: Run the Jupyter Notebook
+    cmds:
+      - poetry run jupyter notebook ace_predictor_v2.ipynb
+
+  lock:
+    desc: Update the Poetry lock file
+    cmds:
+      - poetry lock
