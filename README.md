@@ -21,7 +21,7 @@ The following steps were undertaken in the project:
   <img width="685" alt="image" src="https://github.com/user-attachments/assets/98c772e4-2688-4515-b486-575f647caff7" />
 
   
-  This plot shows the distribution of player and ball positions during serves. This motivates in investing in data quality where huge improvement can be made.
+  This plot shows the distribution of player and ball positions during serves. This motivates in investing in data quality and can be explained more in detail in a walktrhough.
   
 
   ***Model Feature Importance:***
