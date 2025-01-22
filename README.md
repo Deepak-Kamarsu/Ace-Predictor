@@ -18,19 +18,23 @@ The following steps were undertaken in the project:
 
   ***Player and Ball Coordinates:***
   
-  <img width="691" alt="image" src="https://github.com/user-attachments/assets/672ef268-02df-4b49-ba92-d59fbdc20a3f" />
+  <img width="685" alt="image" src="https://github.com/user-attachments/assets/98c772e4-2688-4515-b486-575f647caff7" />
+
   
   This plot shows the distribution of player and ball positions during serves. This motivates in investing in data quality where huge improvement can be made.
   
 
   ***Model Feature Importance:***
-  <img width="1053" alt="image" src="https://github.com/user-attachments/assets/fa69aaa8-d68d-4ed5-bced-fea23d3bba0f" />
+
+  <img width="1069" alt="image" src="https://github.com/user-attachments/assets/6156ba7b-0037-4034-af8c-05a8b8df23f3" />
+
   
-  An example plot is shown here. This plot shows the importance of the feature(ball_bounce) that has an impact on deciding  ace/not.
+  An example plot is shown here. This plot shows the importance of the feature(ball_bounce_v) that has an impact on deciding  ace/not.
 
 **Evaluation**
 
- <img width="994" alt="image" src="https://github.com/user-attachments/assets/1c16810c-b36c-4f7d-824b-5111010e72c6" />
+ <img width="977" alt="image" src="https://github.com/user-attachments/assets/d618d57f-4c00-4fdd-ad3c-02d907c4794e" />
+
 
  The confusion matrix is plotted on a test data and Macro-Precision/Recall/F1 score are of primary interests.
  
